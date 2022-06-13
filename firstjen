@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh '/home/sarang/todayspipelinetask/hello.sh'
+                echo 'start...'
+                sh hello.sh
             }
         }
         stage('Test') {
