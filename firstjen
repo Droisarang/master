@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'start...'
-                sh '/var/jenkins_home/workspace/automatic/hello.sh' 
+                sh 'https://github.com/Droisarang/master.git/hello.sh' 
             }
         }
         stage('Deploy') {
