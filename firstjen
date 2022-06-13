@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'start...'
-                sh 'hello'
+                sh '/home/sarang/todayspipelinetask/hello.sh'
             }
         }
         stage('Deploy') {
